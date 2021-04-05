@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Trivia</title>
+    <link href="style.css" rel="stylesheet">
+</head> 
+<body>
+    <!-- create container (card)--> 
+    <div class="container">
+    <!-- create question container-->
+        <div id="question-container">
+        <div id="question">Question</div>
+        <!-- answer-buttons so can select in javascript -->
+        <!-- btn-grid style in css -->
+        <div id="answer-buttons" class="btn-grid">
+            <button id="answer1" class="btn">Answer 1</button>
+            <button id="answer2" class="btn">Answer 2</button>
+            <button id="answer3" class="btn">Answer 3</button>
+            <button id="answer4" class="btn">Answer 4</button>
+        </div>
+        </div>
+
+        
+
+        <button id="correctAnswer" class="hide"></button>
+
+        <hr>
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Change Quiz Type</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form><br>
+                Enter Category: <input type="text" id="category"/><br><br>
+                Enter Difficulty: <input type="text" id="difficulty"/><br><br>
+                <button id = "switch-btn" type = "button"> Switch </button>
+            </form>
+                
+        </div>
+
+        </div>
+
+    </div>
+
+    <!-- <script src="storage.js"></script> -->
+    <script src="modal.js"></script>
+    <script src="question.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+
+    
+</body>
+</html>
