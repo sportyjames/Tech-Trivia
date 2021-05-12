@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Trivia</title>
     <link href="style.css" rel="stylesheet">
-</head> 
+</head>
+
 <body>
-    <!-- create container (card)--> 
+
+
+    <!-- create container (card)-->
     <div class="container">
-    <!-- create question container-->
-        <div id="question-container">
-        <div id="question">Question</div>
-        <!-- answer-buttons so can select in javascript -->
-        <!-- btn-grid style in css -->
-        <div id="answer-buttons" class="btn-grid">
-            <button id="answer1" class="btn">Answer 1</button>
-            <button id="answer2" class="btn">Answer 2</button>
-            <button id="answer3" class="btn">Answer 3</button>
-            <button id="answer4" class="btn">Answer 4</button>
+        <div class="container2">
+            <img src="trivia.jpg" alt="trivia" class="image">
+            <div class="overlay">
+                <div class="text">Tech Trivia</div>
+            </div>
         </div>
+        <!-- create question container-->
+        <div id="question-container">
+            <div id="question">Question</div>
+            <!-- answer-buttons so can select in javascript -->
+            <!-- btn-grid style in css -->
+            <div id="answer-buttons" class="btn-grid">
+                <button id="answer1" class="btn">Answer 1</button>
+                <button id="answer2" class="btn">Answer 2</button>
+                <button id="answer3" class="btn">Answer 3</button>
+                <button id="answer4" class="btn">Answer 4</button>
+            </div>
         </div>
 
-        
+
 
         <button id="correctAnswer" class="hide"></button>
 
@@ -55,6 +65,7 @@
     <script src="ui.js"></script>
     <script src="app.js"></script>
 
-    
+
 </body>
+
 </html>
