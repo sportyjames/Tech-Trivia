@@ -1,4 +1,4 @@
-# TechTrivia
+# Tech-Trivia
 
 - Tested users’ programming knowledge and generates a review plan for better memorization
 - Implemented the SuperMemo algorithm on the back-end
